@@ -1,0 +1,133 @@
+/* Universal Style */
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* header */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    background-color:#e4e4e4;
+}
+
+.head img {
+    height: 5rem;
+    width: auto;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 3rem;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+nav li {
+    padding-left: 3.5rem;
+    text-decoration: underline;
+}
+
+/* banner */
+#group-image1 {
+    background-image: url("https://api.elle.com.hk/var/ellehk/storage/images/celebrity/cover-story-411-mirror/node_1840086/35425130-1-chi-HK/Web-Cover-Story2_img_1040_780.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    height: 30rem;
+}
+
+.group-content {
+    display: block;
+    margin: auto;
+    padding: 1rem 1rem;
+    border: solid 1px #979797;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.group-title {
+    /*font-family: 'Grape Nuts', cursive;*/
+    font-size: 3.5rem;
+    line-height: 1.4;
+}
+
+.group-content {
+    font-family: 'Prompt', sans-serif;
+}
+
+/* members */
+#members h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#members .image-container {
+    background-color: #cfcccc;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 3%;
+}
+
+#members .image-container ul {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    /*filter: grayscale(100%);*/
+}
+
+.image-container li {
+    padding: 2rem;
+}
+
+/*
+.image-container img:hover{
+    filter: grayscale(0%);
+}
+*/
+
+.image-container figcaption {
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 3rem;
+}
+
+/* footer */
+footer {
+    background-color: #cfcccc;
+    padding: 3rem;
+}
